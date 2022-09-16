@@ -1,8 +1,7 @@
 import React from 'react';
 import './App.css';
+import Nav from './components/Nav';
 
-function App() {
-  return <>hi</>;
+export default function App() {
+  return <Nav />;
 }
-
-export default App;
